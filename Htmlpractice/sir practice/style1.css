@@ -1,0 +1,64 @@
+.flex-container
+{
+    background-color: rgb(157, 91, 132);
+    height: 500px;;
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+
+
+    
+
+    
+}
+.text-white
+{
+    color:aliceblue
+
+}
+.text-alignCentre
+{
+    text-align: center;
+}
+
+.text-red
+{
+    color: crimson;
+}
+
+.text-black
+{
+    color:black
+
+}
+.text-bold
+{
+    font-weight: bold;
+}
+.text-large{
+    font-size: 24px;
+}
+
+.sizewh300
+{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+
+}
+.bg-purple
+{
+    
+    background-color:rgb(107, 34, 96);
+}
+    
+.bg-pink
+{
+    background-color:palevioletred;
+
+}
+.bg-red
+{
+background-color:rgb(182, 52, 78);
+}

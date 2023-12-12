@@ -1,0 +1,45 @@
+html,body {
+    margin : 0px;
+    padding: 0px;
+}
+.container{
+    width: 1200px;
+    background-color: blueviolet;
+    margin: 0px auto 0px auto;
+    
+}
+.header
+{
+    background-color: crimson;
+    width:1200px;
+    height: 100px;
+    float: left;
+
+}
+.sidebar
+{
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color: chartreuse;
+
+}
+
+.main-content
+{
+    width: 900px;
+    height: 500px;
+    float: right;
+    background-color: darkmagenta;
+    
+}
+.footer
+{
+    width: 1200px;
+    height: 50px;
+    float: left;
+    background-color: deeppink;
+    
+}
+
+

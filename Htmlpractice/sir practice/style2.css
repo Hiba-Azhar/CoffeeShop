@@ -1,0 +1,25 @@
+h1{
+    
+font-family: 'Roboto Slab', serif;
+background-color: cadetblue;
+}
+
+p,a{
+    font-family: 'Mynerve', cursive;
+    background-color: chocolate;
+}
+.fa-heartbeat{
+    font-size: 156px;
+    color: white;
+    background-color:blueviolet;
+}
+@media screen and (max-width : 768px) {
+    h1{
+    
+        font-family: 'Roboto Slab', serif;
+        background-color: red;
+        }
+
+    }
+
+ 

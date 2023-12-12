@@ -1,0 +1,45 @@
+html,head,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container
+{
+    background-color: rgb(57, 110, 110);
+    height: 1200px;
+    width: 1200px;
+}
+
+.headerbody
+{
+    background-color:blueviolet;
+    height: 200px;
+    width: 1200px;
+}
+
+.sidebarbody
+{
+    background-color: burlywood;
+    height:1000px;
+    width:300px; 
+    float: left   
+
+}
+.main-content{
+    background-color: crimson;
+    width: 900px;
+    height: 1000px;
+    float: right;
+}
+h4
+{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: line-through;
+    font-size: 40px;
+    font-weight: 900;
+    word-spacing: 80px;
+    letter-spacing: 20px;
+    line-height: 3.4;
+    text-shadow: 3px 3px darkblue;
+}

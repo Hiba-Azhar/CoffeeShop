@@ -1,0 +1,54 @@
+
+.nav-bar
+{
+    
+    background-color : black;
+    padding: 20px;
+    
+}
+nav a {
+    color:aliceblue;
+    font-weight: 600;
+    padding: 10px;
+}
+
+section
+{
+    padding: 30px;
+}
+
+p{
+    padding: 20px;
+    font-size: 18px;
+
+}
+img
+{
+    width: 400px;
+}
+.comatainer
+{
+    justify-content: centers;
+}
+
+.col1
+{
+    background-color: rebeccapurple;
+    margin: 20px;
+}
+.col2
+{
+    background-color:blueviolet;
+    margin: 20px;
+
+}
+.col3
+{
+    background-color: darkmagenta;
+    margin: 20px;
+}
+footer{
+    color: aliceblue;
+    background-color: black;
+    padding: 20px;
+}

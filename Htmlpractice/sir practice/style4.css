@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: pink;
+
+}
+.fontstyle
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1,h2{
+    margin-bottom: 15px;
+}
+.flex-container
+{
+    display:flex;
+    height: 100%;
+
+    
+}
+nav{
+ background-color: rgb(174, 44, 44);
+ height: 100px;
+ padding: 0px 15px;
+}
+
+.align-h
+{
+    justify-content: space-between;
+}
+.align-v
+{
+    align-items: center;
+}
+
+.logo{
+    color: aliceblue;
+    margin-bottom: 0%;
+}
+
+.nav-menu{
+    display: flex;
+}
+.nav-menu li{
+
+    list-style:  none;
+    margin-left: 10px;
+    
+}
+.nav-menu a{
+color: aliceblue;
+text-decoration: none;
+    
+}
+.hero-section
+{
+    padding: 0px 15px;
+    background-color:rgb(186, 166, 179);
+    
+}
+.text-box h2
+{
+font-size: 42px;
+
+}
+.text-box p{
+    font-size: 30px;
+}
+.hero-img
+{
+width :400px;
+}
+
+.box
+{
+    background-color: burlywood;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    
+}
+.boxes
+{
+height:400px;
+margin-top:15px;
+padding:0px 15px;
+}
+
+@media  screen and (max-width: 480px)
+ {
+
+    .logo
+    {
+        font-size: 16px;
+    }
+    .nav a
+    {
+        font-size: 14px;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    nav .flex-container{
+        flex-direction: row;
+    }
+    .hero-section
+    {
+height: auto;
+padding:15px 0px
+    }
+    .hero-img{
+        height:350px;
+        margin-top: 10px;
+
+    }
+    .boxes{
+        height:auto;
+        padding:15px;
+
+    }
+    .box{
+        margin-bottom: 10px;
+    }
+}
